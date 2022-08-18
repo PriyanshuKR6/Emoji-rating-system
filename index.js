@@ -11,9 +11,9 @@ stars.forEach((stars, index) => {
 updateRating(2);
 
 function updateRating(index) {
-    console.log(index);
+
     stars.forEach((stars, idx) => {
-        console.log(index, idx);
+
         if (idx < index + 1) {
             stars.classList.add("active");
         } else {
